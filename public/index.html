@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f3b5a4bf39.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    <h1 id ="title"><span class="ufc-font">UFC</span> Quiz</h1>
+    <div class="select-container">
+        <p id ="amount">Amount of questions</p>
+        <select id="mySelect">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+      </select>
+      <div class="icon-container">
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+    </div>
+    
+    <h3 id ="trivia-question"></h3>
+    
+    <button id ="generate-button">Start quiz </button>
+    
+    
+    <div class="lower-container">
+        <div class="question-count-container">
+            <p id="round">round</p>
+            <p id ="question-count"></p>
+        </div>
+        
+        <div class = "score-container">
+            <p id ="score">score</p>
+            <p id ="answer-count"></p>
+        </div>
+        
+        
+    </div>
+
+
+
+    <form id="trivia-form">
+        <div class="option" id="option1">
+            <div class="input-container">
+                <input type="text" name="answer" value="" readonly >
+                <label for="option1"></label>
+            </div>
+        </div>
+        <div class="option" id="option2">
+            <div class="input-container">
+                <input type="text" name="answer" value="" readonly>
+                <label for="option2"></label>
+            </div>
+        </div>
+        <div class="option" id="option3">
+            <div class="input-container">
+                <input type="text" name="answer" value="" readonly>
+                <label for="option3"></label>
+            </div>
+        </div>
+        <div class="option" id="option4">
+            <div class="input-container">
+                <input type="text" name="answer" value="" readonly>
+                <label for="option4"></label>
+            </div>
+        </div>
+    </form>
+    
+ </div>  
+
+<div class="next-btn-container">
+    <button id ="next-question-btn">Next question &#8658</button>
+</div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
