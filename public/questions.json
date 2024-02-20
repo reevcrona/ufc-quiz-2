@@ -18,5 +18,86 @@
         "question":"Who has the fastest knockout in UFC history?",
         "options":["Don Frye","Leon Edwards","Duane Ludwig","Jorge Masvidal"],
         "answer":"Jorge Masvidal"
+    },
+    {
+        "question":"Who was the first female fighter inducted into the UFC Hall of Fame?",
+        "options":["Amanda Nunes","Miesha Tate","Holly Holm","Ronda Rousey"],
+        "answer":"Ronda Rousey"
+    },
+    {
+        "question":"Who was the first UFC Bantamweight Champion?",
+        "options":["Dominick Cruz","Renan Barão","T.J. Dillashaw","Urijah Faber"],
+        "answer":"Dominick Cruz"
+    },
+    {
+        "question":"Who has the most knockouts in UFC history?",
+        "options":["Chuck Liddell","Derrick Lewis","Matt Brown","Vitor Belfort"],
+        "answer":"Derrick Lewis"
+    },
+    {
+        "question":"Who holds the record for the most significant strikes landed in a UFC fight?",
+        "options":["Nate Diaz", "Rob Font","Max Holloway","Jared Cannonier"],
+        "answer":"Max Holloway"
+    },
+    {
+        "question":"Who was the first UFC Strawweight champion?",
+        "options":["Rose Namajunas","Joanna Jędrzejczyk","Carla Esparza","Jessica Andrade"],
+        "answer":"Carla Esparza"
+    },
+    {
+        "question":"Which of these fighters won both a UFC title and an Olympic gold medal?",
+        "options":["Jose Aldo","Yoel Romero","Henry Cejudo","Daniel Cormier"],
+        "answer":"Henry Cejudo"
+    },
+    {
+        "question":"What former UFC champion was traded to ONE Championship for their welterweight champ?",
+        "options":["Chuck Liddell","Matt Hughes","Tyron Woodley","Demetrious Johnson"],
+        "answer":"Demetrious Johnson"
+    },
+    {
+        "question":"What year was the UFC Founded?",
+        "options":["November 1993","February 2005","January 1987","August 1996"],
+        "answer":"November 1993"
+    },
+    {
+        "question":"First fighter to hold two belts at the SAME TIME?",
+        "options":["Randy Coture","Daniel Cormier","Anderson Silva","Conor Mcgregor"],
+        "answer":"Conor Mcgregor"
+    },
+    {
+        "question":" Which venue has held the most UFC events?",
+        "options":["Madison Square Garden","T-Mobile Arena","MGM Grand","O2 Arena"],
+        "answer":"MGM Grand"
+    },
+    {
+        "question":"Which city was used as fight island during the covid-19 pandemic?",
+        "options":["Vega","Dubai","Abu Dhabi","Mexico City"],
+        "answer":"Abu Dhabi"
+    },
+    {
+        "question":"Who has officiated the most UFC fights?",
+        "options":["Herb Dean","Marc Goddard","Mario Yamasaki","Dan Miraglotta"],
+        "answer":"Herb Dean"
+    },
+    {
+        "question":"Which 2 fighters are the only people to get a 4th fight?",
+        "options":["Moreno / Figueiredo","Coture / Liddell","Jones / Cormier", "Volkanovski / Holloway"],
+        "answer":"Moreno / Figueiredo"
+    },
+    {
+        "question":"Who was Khabibs last UFC fight against?",
+        "options":["Dustin Poirier", "Edson Barboza", "Conor Mcgregor","Justin Gaethje"],
+        "answer":"Justin Gaethje"
+    },
+    {
+        "question":"What was the first Ufc event to feature weight classes?",
+        "options":["UFC 4","UFC 5", "UFC 6", "UFC 7"],
+        "answer":"UFC 7"
+    },
+    {
+        "question":"Who holds the record for the most UFC title defenses?",
+        "options":["Anderson Silva","Jon Jones","Demetrious Johnson","Georges St-Pierre"],
+        "answer":"Demetrious Johnson"
     }
+    
 ]

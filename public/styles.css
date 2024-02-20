@@ -1,7 +1,10 @@
 body{
     background-image: url(octagon-image.jpg);
     background-size: cover;
-    font-family: "Archivo Black"
+    font-family: "Archivo Black";
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -20,7 +23,7 @@ body{
     color:red;
     font-size:5rem;
     font-family: "Archivo Black";
-    margin:1em 0 0 0;
+    margin:0.3em 0 0.1em 0;
 }
 #trivia-question{
     color:white;
@@ -36,6 +39,8 @@ body{
     border-radius: 8px;
     border: none;
     margin-top: 1em;
+    z-index: 3;
+    
 }
 #trivia-form{
    
@@ -44,7 +49,7 @@ body{
     grid-template-rows: repeat(2, 2); 
     gap: 40px; 
     height: 200px;
-    margin-top: 2em;
+    margin-top: 4em;
 
 }
 #trivia-form input:hover{
@@ -92,16 +97,22 @@ input:focus{
     align-items: center;
     color: white;
     position: relative;
+    width: 25em;
+    
 }
-#mySelect{
+.time-container{
+    margin-top:1.2em;
+}
+#mySelect,#select-questions{
     border:none;
     appearance: none;
     padding:0.5rem 1rem;
     border-radius: 10px;
-    width: 50%;
+    width: 8em;
     color:black;
     background-color: white;
     font-size: 1.5rem;
+    max-width: 150px;
 }
 .icon-container{
     width:50px;
@@ -124,7 +135,7 @@ input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 3em;
     gap:4rem;
     width: 100%;
     
@@ -134,8 +145,8 @@ input:focus{
 }
 
 
-#next-question-btn{
-    opacity: 0;
+#next-question-btn,#result-btn{
+    display: none;
     font-size: 1.5rem;
     padding:1.5rem 2.5rem;
     border-radius: 15px;
@@ -144,6 +155,9 @@ input:focus{
     border: none;
     text-align: center;
     margin-top:1em;
+}
+ #result-btn{
+    background-color: #0496FF;
 }
 #next-question-btn:hover{
     scale:1.05;
@@ -231,3 +245,93 @@ input{
         transform: translateY(0);
     }
   }
+
+
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.circle-container {
+    width: 8rem; /* Converted from 400px */
+    height: 8rem; /* Converted from 400px */
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.semicircle {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: right center;
+}
+
+.semicircle:nth-child(1) {
+    background-color: #33A1FD;
+    z-index: 2;
+}
+
+.semicircle:nth-child(2) {
+    background-color: #33A1FD;
+    z-index: 3;
+}
+
+.semicircle:nth-child(3) {
+    background-color: black;
+    z-index: 4;
+}
+
+.outermost-circle {
+    width: 7rem;
+    height: 7rem;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.timer-container {
+    z-index: 6;
+    opacity: 0;
+}
+
+.timer {
+    z-index: 7;
+    margin-right: 2em;
+    width:1em;
+    
+}
+
+.timer div {
+    font-size: 2rem; /* Converted from 65px */
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.timer.colon {
+    background-color: transparent;
+    margin-left: 0;
+    margin-right: 0;
+     
+}
+
+#mili-secs {
+    font-size: 1rem; /* Converted from 50px */
+}
+
+#small-letter {
+    font-size: 1rem; /* Converted from 50px */
+}
